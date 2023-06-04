@@ -122,6 +122,25 @@ yarn add @vitejs/plugin-vue-jsx
 import vueJsx from '@vitejs/plugin-vue-jsx'
 ```
 
+## 配置eslint
+
+```
+npx eslint --init
+```
+
+### 配置prettier
+
+```
+yarn add -D prettier eslint-plugin-prettier eslint-config-prettier
+```
+
+### 配置lint-staged
+
+```
+npx mrm@2 lint-staged
+```
+
+
 
 
 
