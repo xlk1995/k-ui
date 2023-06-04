@@ -140,6 +140,36 @@ yarn add -D prettier eslint-plugin-prettier eslint-config-prettier
 npx mrm@2 lint-staged
 ```
 
+## 文档系统 
+
+```
+yarn add -D vitepress
+```  
+
+```
+mkdir docs && echo '# hello vitePress' > docs/index.md
+```
+
+配置看文件， 注意要安装
+
+```
+yarn add -D vitepress-theme-demoblock
+```
+
+## 搭建样式体系
+
+```
+yarn add -D sass tailwindcss postcss autoprefixer
+```
+
+初始化 tailwindcss
+
+```
+npx tailwindcss init -p
+```
+
+ 
+
 
 
 
