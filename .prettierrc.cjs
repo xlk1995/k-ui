@@ -4,7 +4,7 @@ module.exports = {
   // useTabs: false,
   semi: true, // 未尾分号, default:  true
   singleQuote: false, // 单引号 default: false
-  // quoteProps: 'as-needed',
+  // quoteProps: "as-needed",
   // jsxSingleQuote: false,
   trailingComma: "all", // 未尾分号 default: es5    all | none | es5
   // bracketSpacing: true,

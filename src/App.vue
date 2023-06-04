@@ -5,7 +5,13 @@ import Test from "./components/Test";
 
 <template>
   <div>
-    <Test></Test>
+    <Test>
+      <template #default>aaaa</template>
+      <template #title>
+        <h3>title</h3>
+      </template>
+    </Test>
+
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
