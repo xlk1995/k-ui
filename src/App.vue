@@ -11,6 +11,8 @@ import Test from "./components/Test";
         <h3>title</h3>
       </template>
     </Test>
+    <s-button type="primary"></s-button>
+    <s-button type="primary" disabled block></s-button>
 
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />

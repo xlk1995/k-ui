@@ -1,5 +1,7 @@
 # k-ui
+
 ## 组件化知识
+
 ### 组件命名
 
 官方建议使用大驼峰命名
@@ -27,6 +29,7 @@
 <button class="button">按钮</button>
 
 ```
+
 使用下面方法禁止
 
 ```
@@ -34,6 +37,7 @@ export defualt{
     inheritAttrs: false
 }
 ```
+
 访问透传特性
 
 ```
@@ -60,11 +64,12 @@ import {provide} from 'vue'
 
 provideP(k, v)
 ```
+
 ### composables
 
-Composable Api 可重用逻辑， 类似于react的hooks
+Composable Api 可重用逻辑， 类似于 react 的 hooks
 
-使用use开头
+使用 use 开头
 
 ### 组件通信
 
@@ -84,16 +89,19 @@ this.$parent.$emit('emit')
 被移除
 
 ### $ref
+
 ### $attrs
 
 包含没有声明的组件特性
 
 ```
+
 ```
 
-## vue3中组件相关api的用法
+## vue3 中组件相关 api 的用法
 
 ### 定义组件
+
 ```
 // vue2
 // Vue.component()
@@ -101,8 +109,7 @@ this.$parent.$emit('emit')
 // vue3app.createApp({}).component('comp', {template: ···})
 ```
 
-
-### 移除.sync 
+### 移除.sync
 
 ## 创建项目
 
@@ -110,41 +117,41 @@ this.$parent.$emit('emit')
 yarn create vite
 ```
 
-添加tsx
+添加 tsx
 
 ```
 yarn add @vitejs/plugin-vue-jsx
 ```
 
-配置vite.config.ts
+配置 vite.config.ts
 
 ```
 import vueJsx from '@vitejs/plugin-vue-jsx'
 ```
 
-## 配置eslint
+## 配置 eslint
 
 ```
 npx eslint --init
 ```
 
-### 配置prettier
+### 配置 prettier
 
 ```
 yarn add -D prettier eslint-plugin-prettier eslint-config-prettier
 ```
 
-### 配置lint-staged
+### 配置 lint-staged
 
 ```
 npx mrm@2 lint-staged
 ```
 
-## 文档系统 
+## 文档系统
 
 ```
 yarn add -D vitepress
-```  
+```
 
 ```
 mkdir docs && echo '# hello vitePress' > docs/index.md
@@ -168,12 +175,10 @@ yarn add -D sass tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 ```
 
- 
+### 解决样式报错问题
 
+在 vscode 的 setting 中关闭检测
 
-
-
-
-
-
-
+```
+yarn add -D stylelint stylelint-config-standard
+```
