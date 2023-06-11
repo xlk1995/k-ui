@@ -1,5 +1,5 @@
 import { App } from "vue";
-import SButton from "./src/Button";
+import SButton from "./src/button";
 
 export { SButton };
 
