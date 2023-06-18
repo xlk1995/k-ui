@@ -3,6 +3,6 @@ import SButton from "./src/button";
 
 export { SButton };
 
-export const install = (app: App) => {
+export default (app: App) => {
   app.component(SButton.name, SButton);
 };

@@ -2,8 +2,9 @@ import { createApp } from "vue";
 import "./style.css";
 import App from "./App.vue";
 import "./index.scss";
-import { install } from "./button";
+
+import KUi from "../build/k-ui";
 
 const app = createApp(App);
-install(app);
+app.use(KUi);
 app.mount("#app");
